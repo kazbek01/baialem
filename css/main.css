@@ -1036,6 +1036,63 @@ footer {
   width: 100%;
   margin-bottom: 5px;
 }
+
+.price-item{
+  background-color: white;
+  border: 1px solid #e5e5e5;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+  transition: box-shadow ease .1s, -webkit-box-shadow ease .1s;
+}
+.price-item:hover{
+  background-color: rgba(214, 222, 234, 0.19);
+  box-shadow: 0 0 27px 0 rgba(0, 0, 0, 0.25);
+}
+.price-list li{
+  padding: 15px 20px;
+  text-align: center;
+  font-size: 16px;
+  color: #989494;
+  border-bottom: 1px solid #e5e5e5;
+}
+.price-list li i{
+  margin-right:5px;
+}
+.price-list li h2{
+  color: black;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.price-list li h3{
+  color: black;
+  font-size: 40px;
+  position: relative;
+  font-weight: 600;
+}
+.price-list li h3 sup{
+  font-size: 12px;
+  color: black;
+}
+.price-list li .btn-green{
+  background-color: #4cae4c;
+  padding: 5px 20px;
+  font-size: 14px;
+  color: white;
+  margin: 0 auto;
+  border-radius: 4px;
+  font-weight: 600;
+}
+.price a:hover{
+  text-decoration: none;
+}
+.price-item:hover .btn-green{
+  background-color: #3a90ce;
+}
+.border-none{
+  border: none!important;
+}
 /***********************CUSTOM******************/
 
 @media (min-width: 320px) and (max-width: 767px) {
