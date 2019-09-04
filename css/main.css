@@ -1093,6 +1093,9 @@ footer {
 .border-none{
   border: none!important;
 }
+.navbar-brand {
+  padding: 12px 0;
+}
 /***********************CUSTOM******************/
 
 @media (min-width: 320px) and (max-width: 767px) {
